@@ -15,7 +15,7 @@ public class Triangle {
 
 		System.out.println("Input the degrees of the triangle: ");
 		double degrees = input.nextDouble();
-
+ 
 		double third_side =  Math.sqrt(
                 Math.pow(first_side, 2) + Math.pow(second_side, 2) - 2 * first_side * second_side * Math.cos(degrees));
 		
