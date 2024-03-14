@@ -15,14 +15,15 @@ public class Triangle {
 
 		System.out.println("Input the degrees of the triangle: ");
 		double degrees = input.nextDouble();
-		
 		int functionCode;
+		
 		double third_side;
 		do {
 			System.out.println("\n ************ Menu ************");
 			System.out.println("1) Area \n2) Third Side \n0) Logout");
 			System.out.println("******************************");
 			System.out.print("Please enter a number in [0,1,2]: ");
+			
 			functionCode = input.nextInt();
 
 			switch (functionCode) {
