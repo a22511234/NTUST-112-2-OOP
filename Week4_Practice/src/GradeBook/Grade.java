@@ -59,7 +59,7 @@ public class Grade {
 	            for(int j = 0; j < gradeBook[i].length; j++) {
 	                total += gradeBook[i][j]; // 加總該學生的所有成績
 	            }
-	            mean= (double) total / (double) gradeBook[studentindex].length;
+	            mean= (double) total / (double) gradeBook[studentindex-1].length;
 	            System.out.printf("%10d\t", total); // 印出加總成績
 	            System.out.printf("%10.2f\t", mean); // 印出平均成績
 	            System.out.println();
