@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class GradeBookMethod {
 	static Scanner input = new Scanner(System.in);
 	static double grade[];
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("請輸入人數：");
 		int num = input.nextInt();
-		grade=new double[num];
+		grade = new double[num];
 		setGrade();
 		System.out.println("--------------我是分隔線--------------");
 		showGrade();
