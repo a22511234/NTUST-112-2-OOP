@@ -8,7 +8,7 @@ import Machine.VendingMachine;
 public class VendingMachineTest {
 
     public static void main(String[] args) {
-	    VendingMachine[] machines = new VendingMachine[3];
+	    VendingMachine[] machines = new VendingMachine[2];
 	    machines[0] = new NoodleMachine();
         machines[1] = new DrinkMachine();
 //        machines[2] = new VendingMachine();
