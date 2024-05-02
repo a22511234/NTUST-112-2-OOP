@@ -16,7 +16,7 @@ public class example2 {
 			}
 		}
 		System.out.println("--end--");
-		try {
+		/*try {
             double data = 100 / 0.0;
             System.out.println("浮點數除以零：" + data); 
             if(String.valueOf(data).equals("Infinity")) 
@@ -24,7 +24,7 @@ public class example2 {
         } 
         catch(ArithmeticException e) { 
             System.out.println(e); 
-        } 
+        } */
 	}
 
 }
